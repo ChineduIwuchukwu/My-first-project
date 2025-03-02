@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  display: flex;
+  background-color: #f5f6fa;
+  margin-bottom: 1rem;
+}
+
+.sidenav {
+  border-radius: 1rem;
+  margin: 1rem;
+  background-image: linear-gradient(#ccdaee 5%, #5584c7 10%, #002456 85%);
+  color: #ffffff;
+  position: fixed;
+  left: 0;
+  width: 10rem;
+  height: 100vh;
+  padding: 10px 1rem;
+  position: relative;
+}
+
+.logo {
+  margin: 1rem 0;
+  margin-bottom: 3rem;
+  width: 8rem;
+  background-color: #80a3d5;
+  border-radius: 1rem;
+}
+
+.logo > img {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.button1 {
+  display: flex;
+}
+
+.button {
+  opacity: 50%;
+  display: flex;
+}
+
+.button1 > span {
+  margin-right: 10px;
+}
+
+.button > span {
+  margin-right: 10px;
+}
+
+.button > span > svg {
+  width: 25px;
+}
+
+.logout {
+  position: absolute;
+  bottom: 1.5rem;
+}
+
+.bodycontent {
+  flex: 1;
+  margin-top: 1rem;
+  height: 100vh;
+  overflow: auto;
+  margin-left: 1rem;
+}
+
+.searchcontent {
+  display: flex;
+  margin-right: 1.2rem;
+}
+
+.searchbar {
+  flex: 3;
+  border: 1px solid #100b00;
+  padding: 6px;
+  padding-left: 2rem;
+  height: 2rem;
+  border-radius: 2rem;
+  background-image: url(s);
+}
+
+.profile {
+  margin-left: 4rem;
+  display: flex;
+}
+
+.profileicon {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.profileicon > img {
+  width: 100%;
+  border-radius: 100%;
+  border: 3px solid #4caf50;
+}
+
+.profilename {
+  margin-right: 1rem;
+}
+
+.profilename > p {
+  font-size: 14px;
+  opacity: 50%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002456;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 2rem 1rem 2rem 0;
+}
+
+.textcontent {
+  color: #ffffff;
+}
+
+.btn {
+  margin-top: 2rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.upload {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #0047ab;
+  font-weight: 500;
+}
+
+.upload > span {
+  /* align-items: center; */
+}
+
+.study {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #100b00;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.recommedation {
+  display: flex;
+  margin-right: 1.5rem;
+}
+
+.resourcesandupload {
+  flex: 2;
+}
+
+.resourcecontent > h3 {
+  margin-bottom: 1rem;
+}
+
+.resourcescontentdiv {
+  display: flex;
+  gap: 2rem;
+}
+
+.resourcescontentdiv > div {
+  color: #0047ab;
+  background: #ffffff;
+  border-radius: 24px;
+  width: 28%;
+  padding: 10px 6px;
+}
+
+.resourcescontentdiv > div:nth-child(2) {
+  border: 3px solid #0047ab;
+}
+
+.resourcescontentdiv > div > h4 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+}
+
+.resourcescontentdiv > div > div {
+  display: flex;
+}
+
+.resourcescontentdiv > div > div > span {
+  margin-right: 10px;
+  width: 20px;
+}
+
+.recent {
+  margin-top: 2rem;
+}
+
+.see {
+  width: 93.5%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.uploadcontent {
+  display: flex;
+  gap: 3rem;
+}
+
+.uploads {
+  display: flex;
+  width: 43.5%;
+  border-radius: 24px;
+  background-color: #0047ab;
+  padding: 12px 1rem;
+  align-items: center;
+}
+
+.uploadheader {
+  color: #002456;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.uploadheader > button {
+  padding: 8px 8px;
+  background-color: #002456;
+  color: #ffffff;
+  border-radius: 24px;
+  border: none;
+}
+
+.groupimg {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  width: 90%;
+}
+
+.groupstudy > h4 {
+  margin-bottom: 1rem;
+}
+
+.groupimg > img {
+  width: 60px;
+  border-radius: 100%;
+}
+
+.notification {
+  width: 15rem;
+}
+
+.all {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.all > P {
+  font-weight: 500;
+  color: #0047ab;
+}
+
+.newgroup {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 16px;
+  margin-top: 1rem;
+  width: 90%;
+}
+
+.newupload {
+  margin-bottom: 1rem;
+  gap: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.newupload > h5 {
+  font-weight: 500;
+}
+
+.ipsum {
+  font-size: 14px;
+  color: gray;
+}
+
+.more {
+  color: #0047ab;
+  font-weight: 500;
+}
